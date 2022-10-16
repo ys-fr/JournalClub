@@ -9,13 +9,12 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     };
 </style>
 <script>
-    function card(link, image, title, context) {
+    function card(link, image, title) {
         document.write(
             `<div class="card" href=` + link + `>
             <img src=` + image + ` class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">` + title + `</h5>
-                <p class="card-text">` + context + `.</p>
                 <a   href=` + link + `><button type="button" class="btn btn-primary">Read</button></a>
             </div>
         </div>
@@ -26,9 +25,9 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
 ## 高頻度ファイナンス
 <div>
     <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("RelativeLimitPrice","RelativeLimitPrice/LOB.png","相対価格","")</script>
+    <script>card("AbsoluteLimitPrice","AbsoluteLimitPrice/LOB.png","絶対価格","")</script>
+    <script>card("BidAskSpread","BidAskSpread/LOB.png","スプレッド","")</script>
     </div>
 
 
@@ -39,34 +38,3 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     </div>
 </div>
 
-## 一般: ファイナンス
-<div>
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>
-
-## 一般: 統計学
-<div>
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>

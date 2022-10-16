@@ -1,6 +1,6 @@
 # about this repository
 
-this repository is my code note. this repository contains following contents:
+In this repository, I place my codes which is often used in the research or reviews of papers. This repository contains following contents:
 
 1. high frequency finance
 2. general finance
@@ -8,7 +8,7 @@ this repository is my code note. this repository contains following contents:
 4. journal review
 5. statistical analysis (time series analysis)
 
-if you want to see this notebook, execute following command.
+If you want to see this notebook, execute following command.
 
 ```bash
 # requirements

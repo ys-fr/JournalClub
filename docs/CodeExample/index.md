@@ -39,7 +39,7 @@
 
 
     <div class="card-deck">
-    <script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","StylizedFacts/LongMemory_spread.png","The long memory property of the spread", "")</script>
+    <script>card("StylizedFacts/Duration_CO/Python.ipynb","StylizedFacts/Duration_CO.png","The distribution of the interval between the limit order submission and the cancellation", "")</script>
     <script>card("StylizedFacts/LongMemory_MO/Python.ipynb","StylizedFacts/LongMemory_MO.png","The long memory property of the order flow", "")</script>
     <script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
     </div>
@@ -83,6 +83,22 @@
     <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
     <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
     <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    </div>
+
+
+    <div class="card-deck">
+    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    </div>
+</div>
+
+## Other materials
+<div>
+    <div class="card-deck">
+    <script>card("/Draft/LevarageEffect","material/LOB12.png","Numerical generation of the long memory series","")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","")</script>
     </div>
 
 
