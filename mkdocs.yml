@@ -1,0 +1,82 @@
+site_name: Journal Club
+theme:
+    name: material
+    language: en
+    palette:
+      scheme: default
+      primary: indigo
+      accent: White
+    font:
+      text: Arial
+      color: White
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.instant
+      - content.code.annotate
+      - content.tabs.link
+
+nav:
+  - Articles: 
+    - Articles/index.md
+    - High Frequency Finance: Articles/index
+    - Optimal Execution: /Articles/index
+    - Optimal Market Making: /Articles/index
+    - Agent based model: /Articles/index
+    - General Finance: /Articles/index
+    - Numerical simulation: /Articles/index
+    - Statistics: /Articles/index
+    - Stochastic processes: /Articles/index
+    - Machine learning: /Articles/Index
+  
+  - Code Examples:
+    - CodeExample/index.md
+    - a1: index.html
+  
+  - Other materials:
+    - MyDocuments/index.md
+    - Long memory processes :
+      - a2: /Articles/Index.md
+    - Chapter2 ─── Single Queue Dynamics :
+      - a3: /Articles/Index.md
+
+
+
+markdown_extensions:
+  - def_list
+
+  - attr_list
+  
+  - md_in_html
+  
+  - pymdownx.inlinehilite
+  
+  - pymdownx.snippets
+  
+  - pymdownx.superfences
+  
+  - footnotes
+  
+  - tables
+  
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
+plugins:
+  - mkdocs-jupyter
+  - glightbox
