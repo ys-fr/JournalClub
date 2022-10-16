@@ -29,16 +29,13 @@ nav:
     - Stochastic processes: /Articles/index
     - Machine learning: /Articles/Index
   
-  - Code Examples:
-    - CodeExample/index.md
-    - a1: index.html
+  - Code Examples: CodeExample/index.md
   
+  - Dictionary:
+    - Dictionary/index.md
+    
   - Other materials:
     - MyDocuments/index.md
-    - Long memory processes :
-      - a2: /Articles/Index.md
-    - Chapter2 ─── Single Queue Dynamics :
-      - a3: /Articles/Index.md
 
 
 

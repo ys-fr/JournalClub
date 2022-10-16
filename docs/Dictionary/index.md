@@ -1,4 +1,5 @@
-# Code example 
+# Japanese Draft 
+The first author of this project, Yuki Sato, is Japanese. I, therefore, write a first draft of the theoretical and code description in Japanese. I post them here for Japanese users.
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
@@ -10,58 +11,19 @@
 <script>
     function card(link, image, title, context) {
         document.write(
-            `<div class="card" href=https://github.com/ys-fr/JournalClub/blob/main/JupyterNotebook/` + link + `>
+            `<div class="card" href=` + link + `>
             <img src=` + image + ` class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">` + title + `</h5>
                 <p class="card-text">` + context + `.</p>
-                <a   href=https://github.com/ys-fr/JournalClub/blob/main/JupyterNotebook/` + link + `><button type="button" class="btn btn-primary">Read</button></a>
+                <a   href=` + link + `><button type="button" class="btn btn-primary">Read</button></a>
             </div>
         </div>
         `);
     }
 </script>
 
-## Stylized facts
-<div>
-    <div class="card-deck">
-    <script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_Spread.png","The intraday seasonality of the bid-ask spread","")</script>
-    <script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_transactions.png","The intraday seasonality of the number of transactions","")</script>
-    <script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_transactionvol.png","The intraday seasonality of the transaction volume","")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","StylizedFacts/LongMemory_spread.png","The long memory property of the spread", "")</script>
-    <script>card("StylizedFacts/LongMemory_MO/Python.ipynb","StylizedFacts/LongMemory_MO.png","The long memory property of the order flow", "")</script>
-    <script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","StylizedFacts/LongMemory_spread.png","The long memory property of the spread", "")</script>
-    <script>card("StylizedFacts/LongMemory_MO/Python.ipynb","StylizedFacts/LongMemory_MO.png","The long memory property of the order flow", "")</script>
-    <script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
-    </div>
-</div>
-
-## Price impact
-<div>
-    <div class="card-deck">
-    <script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","LongMemory_spread.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>
-
-## Optimal execution
+## 高頻度ファイナンス
 <div>
     <div class="card-deck">
     <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
@@ -77,7 +39,23 @@
     </div>
 </div>
 
-## LOB dynamics
+## 一般: ファイナンス
+<div>
+    <div class="card-deck">
+    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    </div>
+
+
+    <div class="card-deck">
+    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    </div>
+</div>
+
+## 一般: 統計学
 <div>
     <div class="card-deck">
     <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
