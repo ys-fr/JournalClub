@@ -56,7 +56,7 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href=".">
+<a class="md-tabs__link" href="../Articles">
         Articles
       </a>
 </li>
@@ -66,7 +66,7 @@
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../Dictionary">
+<a class="md-tabs__link" href=".">
       Dictionary
     </a>
 </li>
@@ -106,12 +106,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href=".">
+<a class="md-nav__link" href="../Articles">
         None
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="index">
+<a class="md-nav__link" href="../Articles/index">
         High Frequency Finance
       </a>
 </li>
@@ -164,7 +164,7 @@
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Dictionary">
+<a class="md-nav__link" href=".">
         Dictionary
       </a>
 </li>
@@ -188,18 +188,8 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stylized-facts">
-    Stylized facts
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#stylized-facts_1">
-    Stylized facts
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#stylized-facts_2">
-    Stylized facts
+<a class="md-nav__link" href="#_1">
+    高頻度ファイナンス
   </a>
 </li>
 </ul>
@@ -218,51 +208,24 @@
     };
 </style>
 <script>
-    function card(link, image, title, context) {
+    function card(link, image, title) {
         document.write(
             `<div class="card" href=` + link + `>
             <img src=` + image + ` class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">` + title + `</h5>
-                <p class="card-text">` + context + `.</p>
                 <a   href=` + link + `><button type="button" class="btn btn-primary">Read</button></a>
             </div>
         </div>
         `);
     }
 </script>
-<h2 id="stylized-facts">Stylized facts</h2>
+<h2 id="_1">高頻度ファイナンス</h2>
 <div>
 <div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-</div>
-<h2 id="stylized-facts_1">Stylized facts</h2>
-<div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-</div>
-<h2 id="stylized-facts_2">Stylized facts</h2>
-<div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+<script>card("RelativeLimitPrice","RelativeLimitPrice/LOB.png","相対価格","")</script>
+<script>card("AbsoluteLimitPrice","AbsoluteLimitPrice/LOB.png","絶対価格","")</script>
+<script>card("BidAskSpread","BidAskSpread/LOB.png","スプレッド","")</script>
 </div>
 <div class="card-deck">
 <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>

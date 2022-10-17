@@ -17,6 +17,7 @@ theme:
       - content.tabs.link
 
 nav:
+  - About: /
   - Articles: 
     - Articles
     - High Frequency Finance: Articles/index
@@ -33,7 +34,7 @@ nav:
   
   - Dictionary: Dictionary
     
-  - Other materials: index.md
+  - Other materials: MyDocuments/index.md
 
 
 
