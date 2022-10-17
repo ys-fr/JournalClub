@@ -40,7 +40,7 @@
 
     <div class="card-deck">
     <script>card("StylizedFacts/Duration_CO/Python.ipynb","StylizedFacts/Duration_CO.png","The distribution of the interval between the limit order submission and the cancellation", "")</script>
-    <script>card("StylizedFacts/LongMemory_MO/Python.ipynb","StylizedFacts/LongMemory_MO.png","The long memory property of the order flow", "")</script>
+    <script>card("StylizedFacts/LO_size/Python.ipynb","StylizedFacts/LO_size.png","The limit order size distribution", "")</script>
     <script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
     </div>
 </div>

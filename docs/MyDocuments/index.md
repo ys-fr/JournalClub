@@ -23,7 +23,7 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     }
 </script>
 
-## Stylized facts
+## Notes
 <div>
     <div class="card-deck">
     <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
@@ -39,7 +39,7 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     </div>
 </div>
 
-## Stylized facts
+## Memos
 <div>
     <div class="card-deck">
     <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
@@ -55,18 +55,3 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     </div>
 </div>
 
-## Stylized facts
-<div>
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>

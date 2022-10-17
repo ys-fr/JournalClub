@@ -21,3 +21,11 @@ git clone https://github.com/ys-fr/JournalClub
 # build this site
 mkdocs serve
 ```
+
+## Data availability
+I mainly use quote data of NASDAQ, which is provided from https://lobsterdata.com . 
+
+## 
+
+## contact
+author: yuki.sato.f.r_at_gmail.com
