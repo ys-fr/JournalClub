@@ -17,7 +17,7 @@ theme:
       - content.tabs.link
 
 nav:
-  - About: JournalClub/index.html
+  - About: /JournalClub/index.html
   - Articles: 
     - Articles
     - High Frequency Finance: Articles/index
@@ -75,3 +75,8 @@ extra_javascript:
 plugins:
   - mkdocs-jupyter
   - glightbox
+
+extra:
+  analytics:
+    provider: google
+    property: G-E8M7KJ8BVB

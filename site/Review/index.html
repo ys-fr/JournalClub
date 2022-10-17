@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.5.3" name="generator"/>
-<title>Code example - Journal Club</title>
+<title>Japanese Draft - Journal Club</title>
 <link href="../assets/stylesheets/main.7a952b86.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <meta content="#4051b5" name="theme-color"/>
@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#code-example">
+<a class="md-skip" href="#japanese-draft">
           Skip to content
         </a>
 </div>
@@ -45,7 +45,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Code example
+              Japanese Draft
             
           </span>
 </div>
@@ -66,7 +66,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href=".">
+<a class="md-tabs__link" href="../CodeExample">
       Code Examples
     </a>
 </li>
@@ -169,7 +169,7 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href=".">
+<a class="md-nav__link" href="../CodeExample">
         Code Examples
       </a>
 </li>
@@ -203,23 +203,13 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#price-impact">
-    Price impact
+<a class="md-nav__link" href="#stylized-facts_1">
+    Stylized facts
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#optimal-execution">
-    Optimal execution
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#lob-dynamics">
-    LOB dynamics
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#other-materials">
-    Other materials
+<a class="md-nav__link" href="#stylized-facts_2">
+    Stylized facts
   </a>
 </li>
 </ul>
@@ -229,7 +219,8 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="code-example">Code example</h1>
+<h1 id="japanese-draft">Japanese Draft</h1>
+<p>The first author of this project, Yuki Sato, is Japanese. I, therefore, write a first draft of the theoretical and code description in Japanese. I post them here for Japanese users.</p>
 <p><link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/></p>
 <style>
     .md-tabs__link{ 
@@ -239,12 +230,12 @@
 <script>
     function card(link, image, title, context) {
         document.write(
-            `<div class="card" href=https://github.com/ys-fr/JournalClub/blob/main/JupyterNotebook/` + link + `>
+            `<div class="card" href=` + link + `>
             <img src=` + image + ` class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">` + title + `</h5>
                 <p class="card-text">` + context + `.</p>
-                <a   href=https://github.com/ys-fr/JournalClub/blob/main/JupyterNotebook/` + link + `><button type="button" class="btn btn-primary">Read</button></a>
+                <a   href=` + link + `><button type="button" class="btn btn-primary">Read</button></a>
             </div>
         </div>
         `);
@@ -253,25 +244,7 @@
 <h2 id="stylized-facts">Stylized facts</h2>
 <div>
 <div class="card-deck">
-<script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_Spread.png","The intraday seasonality of the bid-ask spread","")</script>
-<script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_transactions.png","The intraday seasonality of the number of transactions","")</script>
-<script>card("StylizedFacts/IntradaySeasonality_NumTransactions/Python.ipynb","StylizedFacts/Intraday_transactionvol.png","The intraday seasonality of the transaction volume","")</script>
-</div>
-<div class="card-deck">
-<script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","StylizedFacts/LongMemory_spread.png","The long memory property of the spread", "")</script>
-<script>card("StylizedFacts/LongMemory_MO/Python.ipynb","StylizedFacts/LongMemory_MO.png","The long memory property of the order flow", "")</script>
-<script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
-</div>
-<div class="card-deck">
-<script>card("StylizedFacts/Duration_CO/Python.ipynb","StylizedFacts/Duration_CO.png","The distribution of the interval between the limit order submission and the cancellation", "")</script>
-<script>card("StylizedFacts/LO_size/Python.ipynb","StylizedFacts/LO_size.png","The limit order size distribution", "")</script>
-<script>card("StylizedFacts/TransactionVolume_MO/Python.ipynb","StylizedFacts/TransactionVolume_MO.png","The distribution of the transaction volume", "")</script>
-</div>
-</div>
-<h2 id="price-impact">Price impact</h2>
-<div>
-<div class="card-deck">
-<script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","LongMemory_spread.png","test","test")</script>
+<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
 </div>
@@ -281,7 +254,7 @@
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
 </div>
 </div>
-<h2 id="optimal-execution">Optimal execution</h2>
+<h2 id="stylized-facts_1">Stylized facts</h2>
 <div>
 <div class="card-deck">
 <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
@@ -294,25 +267,12 @@
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
 </div>
 </div>
-<h2 id="lob-dynamics">LOB dynamics</h2>
+<h2 id="stylized-facts_2">Stylized facts</h2>
 <div>
 <div class="card-deck">
 <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
 <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-</div>
-</div>
-<h2 id="other-materials">Other materials</h2>
-<div>
-<div class="card-deck">
-<script>card("/Draft/LevarageEffect","material/LOB12.png","Numerical generation of the long memory series","")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","")</script>
-<script>card("LevarageEffect","material/LOB12.png","test","")</script>
 </div>
 <div class="card-deck">
 <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
