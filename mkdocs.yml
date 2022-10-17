@@ -17,7 +17,7 @@ theme:
       - content.tabs.link
 
 nav:
-  - About: index.html
+  - About: /index.html
   - Articles: 
     - Articles
     - High Frequency Finance: Articles/index
