@@ -32,9 +32,9 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
 
 
     <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("PriceDuration/PriceDuration","LOB.png","Price duration","")</script>
+    <script>card("VolumeDuration","LOB.png","Volume dration","")</script>
+    <script>card("LevarageEffect","LOB.png","test","test")</script>
     </div>
 </div>
 
