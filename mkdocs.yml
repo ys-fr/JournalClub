@@ -19,16 +19,7 @@ theme:
 nav:
   - About: /JournalClub/index.html
   - Articles: 
-    - Articles
-    - High Frequency Finance: Articles/index
-    - Optimal Execution: /Articles/index
-    - Optimal Market Making: /Articles/index
-    - Agent based model: /Articles/index
-    - General Finance: /Articles/index
-    - Numerical simulation: /Articles/index
-    - Statistics: /Articles/index
-    - Stochastic processes: /Articles/index
-    - Machine learning: /Articles/Index
+    - Review
   
   - Code Examples: CodeExample
   
