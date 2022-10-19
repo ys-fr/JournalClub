@@ -1,5 +1,5 @@
-# Japanese Draft 
-The first author of this project, Yuki Sato, is Japanese. I, therefore, write a first draft of the theoretical and code description in Japanese. I post them here for Japanese users.
+# Article 
+This page introduce some papers, and post my memos and link to notebook.
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
