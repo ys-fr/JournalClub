@@ -48,9 +48,9 @@
 ## Price impact
 <div>
     <div class="card-deck">
-    <script>card("StylizedFacts/LongMemory_Spread/Python.ipynb","LongMemory_spread.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("PriceImpact/ResponseFunction/Python.ipynb","PriceImpact/ResponseFunction.png","Response function","")</script>
+    <script>card("PriceImpact/PropagatorModel_Direct/Python.ipynb","PriceImpact/PropagatorModel_Direct.png","Propagator function","introduced by bouchaud-2002")</script>
+    <script>card("PriceImpact/Variogram/Python.ipynb","PriceImpact/Variogram.png","Variogram of price fluctuation","")</script>
     </div>
 
 
