@@ -23,42 +23,10 @@ The first author of this project, Yuki Sato, is Japanese. I, therefore, write a 
     }
 </script>
 
-## Stylized facts
+## Order book modeling
 <div>
     <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>
-
-## Stylized facts
-<div>
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-
-
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
-    </div>
-</div>
-
-## Stylized facts
-<div>
-    <div class="card-deck">
-    <script>card("/Draft/LevarageEffect","material/LOB12.png","test","test")</script>
+    <script>card("Zovko-2002","LOB.png","Statistical analysis on order placement","")</script>
     <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
     <script>card("LevarageEffect","material/LOB12.png","test","test")</script>
     </div>
